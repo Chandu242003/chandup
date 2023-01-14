@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Quadratic
 
-public static void main(String[] args) {
+public static void main(String[] args) 
+{
 
 int a,b,c;
 
@@ -20,31 +21,46 @@ c=in.nextInt();
 
 double d-b*b-4*a*c;
 
-System.out.println("Determinant="+d); 
+System.out.println("Determinant="+d);
+ 
 if (d>0)
+
 {
+
 root1=(-b+Math.sqrt(d))/(2*a);
 
 root2=(-b-Math.sqrt(d))/(2*a);
 
 System.out.println("the roots are real and distinct"); 
+
 System.out.format("root1 %.2f and root2=%.2f", root1, root2);
+
 }
+
 else if (d==0)
+
 {
+
 root1=root2=-b/(2*a);
 
 System.out.println("the roots are real and equal")
+
  System.out.format("root1=root2=%.2f;", root1);
+
 }
+
 else
+
 {
+
 double real--b/(2*a);
 
 double imaginary=Math.sqrt(-d)/(2a);
 
 System.out.println("the roots are imaginary"); 
+
 System.out.format("root1=.2f2f1", real, imaginary);
+
 System.out.format("\nroot2=%.2f/1", real, imaginary);
 }
 }
