@@ -23,7 +23,7 @@ double d-b*b-4*a*c;
 
 System.out.println("Determinant="+d);
  
-if (d>0)
+if(d>0)
 
 {
 
@@ -37,7 +37,7 @@ System.out.format("root1 %.2f and root2=%.2f", root1, root2);
 
 }
 
-else if (d==0)
+else if(d==0)
 
 {
 
