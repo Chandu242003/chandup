@@ -53,14 +53,14 @@ else
 
 {
 
-double real--b/(2*a);
+double real=b/(2*a);
 
 double imaginary=Math.sqrt(-d)/(2a);
 
 System.out.println("the roots are imaginary"); 
 
-System.out.format("root1=.2f2f1", real, imaginary);
+System.out.format("root1=%.2f", real, imaginary);
 
-System.out.format("\nroot2=%.2f/1", real, imaginary);
+System.out.format("\nroot2=%.2f", real, imaginary);
 }
 }
