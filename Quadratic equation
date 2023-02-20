@@ -64,4 +64,5 @@ System.out.format("root1=%.2f", real, imaginary);
 
 System.out.format("\nroot2=%.2f", real, imaginary);
 }
+
 }
