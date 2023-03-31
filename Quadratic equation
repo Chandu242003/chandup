@@ -62,6 +62,6 @@ System.out.println("the roots are imaginary");
 
 System.out.format("root1=%.2f", real, imaginary);
 
-System.out.format("\nroot2=%.2f", real, imaginary);
+System.out.format("\nroot2=%.2f",real, imaginary);
 }
 }
